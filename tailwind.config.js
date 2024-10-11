@@ -12,6 +12,9 @@ module.exports = {
         'width': 'width',
         'spacing': 'margin, padding',
       },
+      colors: {
+        primary: '#E97451',
+      },
     },
   },
   plugins: [],

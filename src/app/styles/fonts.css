@@ -11,4 +11,11 @@
     font-weight: bold;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+  }
   

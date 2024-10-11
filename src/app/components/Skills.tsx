@@ -36,8 +36,8 @@ const Skills: React.FC = () => {
       </div>
 
       <div className='ml-20'>
-        <h2 className="text-2xl md:text-4xl font-extralight">My Tech Stack</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10 justify-center">
+        <h2 className="text-2xl md:text-5xl font-extralight">My Tech Stack</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-14 justify-center">
           {skills.map((skill, index) => (
             <div key={index} className="text-center">
 

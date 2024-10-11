@@ -15,7 +15,7 @@ const experiences = [
   
   const Experience: React.FC = () => {
     return (
-      <section className="py-12">
+      <div className="py-12 pt-40">
         <h2 className="text-2xl md:text-4xl font-semibold text-center">Experience</h2>
         <div className="mt-6 space-y-6">
           {experiences.map((exp, index) => (
@@ -26,7 +26,7 @@ const experiences = [
             </div>
           ))}
         </div>
-      </section>
+      </div>
     );
   };
   

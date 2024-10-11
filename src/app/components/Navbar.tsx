@@ -36,9 +36,19 @@ const Navbar: React.FC = () => {
                 height={100}
             />
             {/* Desktop Navbar */}
-            <div className="hidden md:flex flex-row justify-end">
-                {navbarItems.map((item, index) => <a className="p-10 pr-10" href="#" key={index}>{item}</a>)}
-                <DarkModeToggle />
+            <div className="hidden md:flex flex-row">
+                {navbarItems.map((item, index) => (
+                    <a 
+                    className="m-6 mr-6 p-4 hover:bg-gray-200 hover:bg-opacity-50 dark:hover:bg-white dark:hover:bg-opacity-30 hover:rounded-lg" 
+                    href="#" 
+                    key={index}>
+                        {item}
+                    </a>
+                    
+                    ))}
+                    <div className="mt-9 ml-10">
+                        <DarkModeToggle />
+                    </div>
             </div>
             {/* Mobile Menu */}
             <div className="md:hidden flex">
@@ -48,7 +58,7 @@ const Navbar: React.FC = () => {
                 >
                     {isOpen ? (
                         // X Mark when the menu is open
-                        <FontAwesomeIcon icon={faClose} size="2x"/>
+                        <FontAwesomeIcon icon={faClose} size="2x" />
                     ) : (
                         // Hamburger Icon
                         <>

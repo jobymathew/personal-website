@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background-dark: #1a202c;
+  --foreground-dark: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +19,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: serif, monospace, sans-serif;
+}
+
+/* For Dark Mode */
+.dark body {
+  background-color: var(--background-dark);
+  color: var(--foreground-dark);
 }
 
 @layer utilities {

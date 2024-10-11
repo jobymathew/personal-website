@@ -4,7 +4,15 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionDuration: {
+        '400': '400ms',
+      },
+      transitionProperty: {
+        'width': 'width',
+        'spacing': 'margin, padding',
+      },
+    },
   },
   plugins: [],
   darkMode: 'selector',

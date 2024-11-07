@@ -13,7 +13,7 @@ const Education: React.FC = () => {
 
             <div className="flex justify-around">
 
-                <div className="mt-10 flex items-center">
+                <div className="mt-20 flex items-center">
                     <Image
                         src={Curtin}
                         alt="Curtin University"

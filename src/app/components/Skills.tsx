@@ -24,7 +24,7 @@ const skills = [
 
 const Skills: React.FC = () => {
   return (
-    <div className="py-12 flex pt-52">
+    <div className="py-12 flex pt-52 justify-center">
 
       <div className='pl-10'>
         <Image

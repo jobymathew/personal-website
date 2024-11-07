@@ -50,7 +50,7 @@ const Header: React.FC = () => {
 
 
   return (
-    <div className="py-12 pl-20 flex items-center">
+    <div className="py-12 pl-20 flex items-center justify-center">
       <div>
         <h1 className="text-4xl md:text-6xl font-bold">Full Stack Developer -</h1>
         <h1 className="text-4xl md:text-6xl mt-5 font-bold">Joby Mathew</h1>

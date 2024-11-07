@@ -11,7 +11,7 @@ const Education: React.FC = () => {
         <div className="ml-10 mt-40">
             <h1 className="text-3xl md:text-5xl">Education</h1>
 
-            <div className="flex justify-between">
+            <div className="flex justify-around">
 
                 <div className="mt-10 flex items-center">
                     <Image
